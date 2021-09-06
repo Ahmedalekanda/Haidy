@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-27T11:51:48 PDT" name="Surefire suite" finished-at="2021-07-27T11:52:46 PDT" duration-ms="57637">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.alekanda.TestRanner.TestRunner_AL@74235045]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-07-27T11:51:48 PDT" name="Surefire test" finished-at="2021-07-27T11:52:46 PDT" duration-ms="57637">
+      <class name="com.alekanda.TestRanner.TestRunner_AL">
+        <test-method is-config="true" signature="lunchApplicatationURL()[pri:0, instance:com.alekanda.TestRanner.TestRunner_AL@74235045]" started-at="2021-07-27T11:51:48 PDT" name="lunchApplicatationURL" finished-at="2021-07-27T11:51:51 PDT" duration-ms="2476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchApplicatationURL -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.alekanda.TestRanner.TestRunner_AL@74235045]" started-at="2021-07-27T11:51:51 PDT" name="setUpClass" finished-at="2021-07-27T11:51:51 PDT" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.alekanda.TestRanner.TestRunner_AL@74235045]" started-at="2021-07-27T11:51:51 PDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-07-27T11:51:59 PDT" duration-ms="8096" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Home page Display]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.alekanda.TestRanner.TestRunner_AL@74235045]" started-at="2021-07-27T11:51:59 PDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-07-27T11:52:45 PDT" duration-ms="45608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.alekanda.TestRanner.TestRunner_AL@74235045]" started-at="2021-07-27T11:52:45 PDT" name="tearDownClass" finished-at="2021-07-27T11:52:45 PDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="CloseApplicationURL()[pri:0, instance:com.alekanda.TestRanner.TestRunner_AL@74235045]" started-at="2021-07-27T11:52:45 PDT" name="CloseApplicationURL" finished-at="2021-07-27T11:52:46 PDT" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseApplicationURL -->
+      </class> <!-- com.alekanda.TestRanner.TestRunner_AL -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

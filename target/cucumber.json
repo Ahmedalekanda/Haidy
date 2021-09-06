@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 7,
+        "name": "Successfully verify search result display",
+        "description": "",
+        "id": "home-page-display;successfully-verify-search-result-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1774833600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Open application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefHomePage.open_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 141763100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "product search by name",
+            "match": {
+              "location": "StepDefHomePage.product_search_by_name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3093221400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on search button",
+            "match": {
+              "location": "StepDefHomePage.click_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 983273300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify user on search result display",
+            "match": {
+              "location": "StepDefHomePage.verify_user_on_search_result_display()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@HomeCA"
+          }
+        ]
+      }
+    ],
+    "name": "Home page Display",
+    "description": "",
+    "id": "home-page-display",
+    "keyword": "Feature",
+    "uri": "HomeAL.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User can signin successfully",
+        "description": "",
+        "id": "signin;user-can-signin-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1329540400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefHomePage.open_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1996769200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on signin button",
+            "match": {
+              "location": "StepDefLoginPage.user_click_on_signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17699617500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "enter username and password and click signin",
+            "match": {
+              "location": "StepDefLoginPage.enter_username_and_password_and_click_signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 535401100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify user can signin",
+            "match": {
+              "location": "StepDefLoginPage.verify_user_can_signin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@HomeCA"
+          }
+        ]
+      }
+    ],
+    "name": "Signin",
+    "description": "",
+    "id": "signin",
+    "keyword": "Feature",
+    "uri": "LoginAL.feature"
+  }
+]

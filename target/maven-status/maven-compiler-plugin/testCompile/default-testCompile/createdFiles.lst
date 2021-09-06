@@ -1,0 +1,11 @@
+com\alekanda\Utill\Utillll.class
+com\alekanda\Utill\TestData_AL.class
+StepDepAL\StepDefHomePage.class
+StepDepAL\StepDefLoginPage.class
+com\alekanda\PageAction\HomePageAction.class
+com\alekanda\PageLocator\HomePageLocator.class
+com\alekanda\Utill\LogeHelper_Log.class
+com\alekanda\TestRanner\TestRunner_AL.class
+com\alekanda\Utill\TestBase_AL.class
+com\alekanda\PageLocator\LoginPageLocator.class
+com\alekanda\PageAction\LoginPageAction.class
